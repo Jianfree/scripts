@@ -1,4 +1,7 @@
-{   
+var body = $response.body;
+console.log("xunlei befor response", body)
+var obj = JSON.parse(body);
+obj.vip_info = [{   
     "register": "20210101",
     "autodeduct": "0",
     "daily": "100",
@@ -17,4 +20,7 @@
       "general": "https://xluser-ssl.xunlei.com/v1/file/icon/level/vip/deactivate_a/vip_level7_deactivate.png",
       "small": "https://xluser-ssl.xunlei.com/v1/file/icon/level/vip/deactivate_b/vip_lever7_deactivate.png"
     }
-  }
+  }]
+body = JSON.stringify(obj);
+console.log("xunlei befor after", body)
+$done({body});

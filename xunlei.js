@@ -9,7 +9,7 @@ obj.vip_info = [{
     "pay_id": "0",
     "pay_name": "---",
     "register": "0",
-    "vasid": "2",
+    "vas_id": "2",
     "vas_type": "5",
     "vip_day_grow": "20",
     "vip_grow": "840",

@@ -14,7 +14,7 @@
     "user_vas": "2",
     "vas_type": "5",
     "vip_icon": {
-      "general": "https://xluser-ssl.xunlei.com/v1/file/icon/level/vip/deactivate_a/vip_level1_deactivate.png",
-      "small": "https://xluser-ssl.xunlei.com/v1/file/icon/level/vip/deactivate_b/vip_lever1_deactivate.png"
+      "general": "https://xluser-ssl.xunlei.com/v1/file/icon/level/vip/deactivate_a/vip_level7_deactivate.png",
+      "small": "https://xluser-ssl.xunlei.com/v1/file/icon/level/vip/deactivate_b/vip_lever7_deactivate.png"
     }
   }

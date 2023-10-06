@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.vipList = [{
+obj.vip_info = [{
     "expireDate": "20290609",
     "isAutoDeduct": "0",
     "isVip": "1",
@@ -18,4 +18,3 @@ obj.vipList = [{
 console.log("xunlei response", JSON.stringify(obj))
 body = JSON.stringify(obj);
 $done({body});
-

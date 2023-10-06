@@ -1,5 +1,5 @@
 var body = $response.body;
-console.log("xunlei befor response", body)
+console.log("xunlei before", body);
 var obj = JSON.parse(body);
 obj.vip_info = [{   
     "register": "20210101",
@@ -22,5 +22,5 @@ obj.vip_info = [{
     }
   }]
 body = JSON.stringify(obj);
-console.log("xunlei befor after", body)
+console.log("xunlei after", body);
 $done({body});
